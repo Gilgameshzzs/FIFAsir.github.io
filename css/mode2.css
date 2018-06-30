@@ -12,7 +12,6 @@ span,
 img,
 /*设定浏览器为无边框*/
 
-
 * {
     /*    去除ul的小圆点*/
     list-style: none;
@@ -37,19 +36,19 @@ body {
     width: 100%;
     height: 1080px;
     position: relative;
-    background-image: url("../images/sir.jpg");
+    background-image: url("../images/mx1.jpg");
     background-attachment: fixed;
     background-position: center top;
-    background-size: cover;
+    background-size: cov;
 }
 
 /*生成边框*/
 
 .content {
     width: 800px;
-    height: 500px;
+    height: 600px;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     margin-top: -200px;
     margin-left: -400px;
@@ -85,11 +84,11 @@ body {
     margin: 150px auto;
     background: rgba(0, 0, 0, 0.3);
 
-    z-index:2;
+    z-index: 2;
     /*他是用的老布局方法，你这里也得用他同样的方法*/
     /*基本上就是强行用绝对位置配合外边距来让元素居中*/
     position:absolute;
-    top: 95%;
+    top: 85%;
     left: 50%;
     margin-left: -60px;
     text-align: center;
@@ -100,7 +99,7 @@ body {
 
 .box:hover {
     transition: 0.3s;
-    background-color:chartreuse;
+    background-color:darkturquoise;
 }
 
 h1 {
